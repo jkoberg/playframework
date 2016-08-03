@@ -27,5 +27,5 @@ These macros rely on a few assumptions about the type they're working with :
 - The return types of the `unapply` must match the argument types of the `apply` method.
 - The parameter names of the `apply` method must be the same as the property names desired in the JSON.
 
-Case classes natively meet these requirements. For more custom classes or traits, you might
+Case classes with 22 or fewer fields natively meet these requirements. For more custom classes or traits, you might
 have to implement them.
